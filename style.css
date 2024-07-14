@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+* {
+  /* box-sizing: border-box;*/
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  padding: 100px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+}
+.container {
+  background-color: white;
+  padding: 50px;
+}
+.imageContainer {
+  overflow: hidden;
+  height: 70vh;
+  border-radius: 10px;
+}
+img {
+  object-fit: contain;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+.preparationBox {
+  background-color: hsl(330, 100%, 98%);
+  padding: 16px;
+  border-radius: 10px;
+}
+.preparationBox ::marker {
+  color: hsl(332, 51%, 32%);
+}
+.ingredients ::marker {
+  color: hsl(14, 45%, 36%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+}
+table {
+  width: 100%;
+}
+tr,
+td {
+  border-bottom: 1px solid hsla(15, 4%, 18%, 0.368);
+  padding: 8px;
+}
